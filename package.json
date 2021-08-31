@@ -1,0 +1,22 @@
+{
+  "name": "base-node",
+  "version": "0.0.1",
+  "description": "Tablas de multiplicar con texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "num": "node app --tabla=6"
+  },
+  "keywords": [
+    "mutiplicador"
+  ],
+  "author": "Asier",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
